@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JoshiTech</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- -------bootstrap css-------- -->
+	<link rel="stylesheet" type="text/css" href="assests/css/bootstrap.min.css">
+	<!-- -------custom css-------- -->
+	<link rel="stylesheet" type="text/css" href="assests/css/style.css">
+	<!-- ------font awesome------- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg fixed-top" id="nav">
+		  <div class="container">
+			  <a class="navbar-brand" href="index.html">JoshiTech</a>
+			  <button class="navbar-toggler" onclick="Function()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			     	<span class="line"></span> 
+	        		<span class="line"></span> 
+	        		<span class="line"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#about">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#services">Services</a>
+			      </li>
+				  <li class="nav-item">
+			        <a class="nav-link" href="#team">Team</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#contact">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+		  </div>
+		</nav>
+	</header>
+
+
+	<!-- ------business section------ -->
+	<section id="business" class="d-flex align-items-center" >
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-flex justify-content-center flex-column pt-5 order-2">
+					<h1 class="text-white b_head">Better Solutions For Your Business</h1>
+          			<h2 class="text-white b_head2">We are team of talanted designers making websites with Bootstrap</h2>
+          			<button class="btn get_started">Get Started</button>
+				</div>
+				<div class="col-md-6 order-1">
+					<img class="img-fluid b_img" src="assests/images/why-us.png" alt="business">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="clients">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-6 d-flex justify-content-center align-items-center">
+					<img src="assests/images/client-1.png" class="img-fluid">
+				</div>
+				<div class="col-md-2 col-6 d-flex justify-content-center align-items-center">
+					<img src="assests/images/client-2.png" class="img-fluid">
+				</div>
+				<div class="col-md-2 col-6 d-flex justify-content-center align-items-center">
+					<img src="assests/images/client-3.png" class="img-fluid">
+				</div>
+				<div class="col-md-2 col-6 d-flex justify-content-center align-items-center">
+					<img src="assests/images/client-4.png" class="img-fluid">
+				</div>
+				<div class="col-md-2 col-6 d-flex justify-content-center align-items-center">
+					<img src="assests/images/client-5.png" class="img-fluid">
+				</div>
+				<div class="col-md-2 col-6 d-flex justify-content-center align-items-center">
+					<img src="assests/images/client-6.png" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ------about us------- -->
+	<section class="py-5" id="about">
+		<div class="container">
+			<div class="about mb-5">
+				<h1 class="text-center"><span class="about_us">About Us</span></h1>
+			</div>
+			<div class="row">
+				<div class="col-md-6 about_left">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<ul>
+						<li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+						<li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+						<li><i class="fa fa-hand-o-right mr-2" aria-hidden="true"></i>Duis aute irure dolor in reprehenderit in voluptate velit</li>
+					</ul>
+				</div>
+				<div class="col-md-6 about_right">
+					<p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button class="btn btn-outline-primary px-5">Learn more</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="about_second">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 about_second_left">
+					<h2 class="about_second_heading">Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h2>
+					<p class="about_second_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+					<div id="accordion">
+					  <div class="card mb-3" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					    <div class="card-header" id="headingOne">
+					      <h5 class="mb-0">
+					          01 Non consectetur a erat nam at lectus urna duis?
+					      </h5>
+					    </div>
+
+					    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+					      </div>
+					    </div>
+  					  </div>
+  					  <div class="card mb-3" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+					    <div class="card-header" id="headingTwo">
+					      <h5 class="mb-0">
+					          02 Feugiat scelerisque varius morbi enim nunc?
+					      </h5>
+					    </div>
+
+					    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+					      </div>
+					    </div>
+  					  </div>
+  					  <div class="card mb-3" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+					    <div class="card-header" id="headingThree">
+					      <h5 class="mb-0">
+					          03 Dolor sit amet consectetur adipiscing elit?
+					      </h5>
+					    </div>
+
+					    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+					      <div class="card-body">
+					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda 
+					      </div>
+					    </div>
+  					  </div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img class="img-fluid a_img" src="assests/images/hero-img.png" alt="business">
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section class="about_three py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-fluid" src="assests/images/skills.png" alt="business">
+				</div>
+				<div class="col-md-6">
+					<h2 class="about_three_heading">Eum ipsam laborum deleniti velit pariatur architecto aut nihil</h2>
+					<p class="about_three_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+					<label>HTML</label>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+					</div>
+					<label>CSS</label>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+					</div>
+					<label>JAVASCRIPT</label>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">60%</div>
+					</div>
+					<label>PHOTOSHOP</label>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- --------service-------------- -->
+
+	<section class="services py-5" id="services">
+		<div class="container">
+			<div class="services_head mb-5">
+				<h1 class="text-center"><span class="services_heading">Services</span></h1>
+				<p class="services_para text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+				<div class="row pt-3">
+					<div class="col-md-3 col-10 mx-auto pb-4">
+						<div class="card">
+						  <img class="card-img-top" src="assests/images/web_d.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="btn btn-link card-title text-uppercase p-0">Web Design</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-10 mx-auto pb-4">
+						<div class="card">
+						  <img class="card-img-top" src="assests/images/devlopment.jpeg" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="btn btn-link card-title text-uppercase p-0">Web Development</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-10 mx-auto pb-4">
+						<div class="card">
+						  <img class="card-img-top" src="assests/images/Android.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="btn btn-link card-title text-uppercase p-0">Android</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-3 col-10 mx-auto pb-4">
+						<div class="card">
+						  <img class="card-img-top" src="assests/images/Digital.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <h5 class="btn btn-link card-title text-uppercase p-0">Digital Marketing</h5>
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>	
+	</section>
+
+	<section>
+		<div class="contact" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<h1 class="text-white">Call To Action</h1>
+						<p class="text-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-md-4 d-flex justify-content-center align-items-center">
+						<button class="btn btn-outline-light px-5  py-2 call">Call Now</button>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="mt-5 footer" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-10">
+					<h3 class="address">JOSHITECH</h3>
+					<p>A108 Adam Street<br>
+					New York, NY 535022<br>
+					United States</p>
+					<p>Phone: +91 123456789</p>
+					<p>Email: info@joshitech.in</p>
+				</div>
+				<div class="col-md-3 col-10">
+					<ul>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Home</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>About</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Services</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Team</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Contact</li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-10">
+						<ul>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Web Design</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Web Development</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Android Development</li>
+						<li class="mb-2"><i class="fa fa-angle-right pr-1" aria-hidden="true"></i>Diigital Marketing</li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-10">
+						<h3 class="networks">Our Social Networks</h3>
+						<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+						<i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+				</div>
+			</div>
+		</div>
+		<div>
+			<h5 class="text-center bg-dark py-2 text-white mb-0 foot">copyright &copy 2019, Design by JOSHITECH</h5>
+		</div>
+	</footer>
+
+	<script src="assests/js/main.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

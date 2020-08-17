@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+.navbar{
+	transition: 0.8s linear;
+}
+.navbar-brand{
+	text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+
+.nav-item{
+	padding-right: 2.5rem;
+}
+.nav-link{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+}
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+.nav-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+#business{
+	width: 100%; 
+	height: 80vh;
+	background-color: #6186c3;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.get_started{
+	background: #47b2e4;
+	width: 30%;
+	border-radius: 20px;
+	color: #fff;
+	padding: 8px;
+}
+.get_started:hover{
+	background: #fff;
+	color: #47b2e4;
+}
+.b_img{
+	-webkit-animation: updown 2s infinite ease-in-out alternate-reverse both; 
+}
+ @-webkit-keyframes updown{
+	0%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(-10px);
+	}
+}
+.clients{
+	background-color: #f3f2f2;
+	padding: 25px 20px;
+}
+.clients img{
+	max-width: 50%;
+}
+.about_us{
+	text-transform: uppercase;
+	color: #6186c3;
+	letter-spacing: 2px;
+}
+.about_us:before{
+  	content: "";
+    position: absolute;
+    width: 195px;
+    height: 3px;
+    bottom: -60px;
+    left: calc(50% - 100px);
+    background-color: #6186c3;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.about_us:hover:before{
+	visibility: visible;
+  	transform: scaleX(1);
+}
+.about_left, .about_right{
+	color:#737171;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+.about_left ul li{
+	list-style-type: none;
+}
+.about_second{
+	background-color: #eef4f5;
+	padding: 100px 0px;
+}
+.about_second_heading, .about_three_heading{
+	color: #6186c3;
+	letter-spacing: 1px;
+}
+.about_second_para, .about_three_para{
+	color:#737171;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+.a_img{
+	animation: rotate 10s infinite linear;
+}
+@keyframes rotate{
+	0%{
+		transform: rotateY(0deg);
+	}
+	0%{
+		transform: rotateY(360deg);
+	}
+}
+.services{
+	background-color: #eef4f5;
+}
+.services_heading{
+	text-transform: uppercase;
+	color: #6186c3;
+	letter-spacing: 2px;
+}
+.services_heading:before{
+  	content: "";
+    position: absolute;
+    width: 195px;
+    height: 3px;
+    bottom: -60px;
+    left: calc(50% - 100px);
+    background-color: #6186c3;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+.services_heading:hover:before{
+	visibility: visible;
+  	transform: scaleX(1);
+}
+.services_para{
+	color:#737171;
+	letter-spacing: 1px;
+}
+.card{
+	box-shadow: 5px 5px 10px #b3b1b1;
+	transition: 0.2s linear;
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+.contact{
+	background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../images/cta-bg.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	padding: 80px 0px;
+}
+.call{
+	border-radius: 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.call:hover{
+	background-color: #47b2e4;
+	color: #fff;
+	border: none;
+}
+.footer ul li{
+	list-style-type: none;
+}
+.address{
+	color: #6186c3;
+}
+.fa-twitter-square{
+	color: #2196f3;
+
+}
+.fa-facebook-official{
+	color: #0778e9;
+}
+.fa-instagram{
+	color: #fd5949 ;
+}
+.fa-linkedin-square{
+	color: #6186c3;
+}
+
+@media(max-width: 479px){
+	.b_head {
+    font-size: 2rem;
+	}
+	.b_head2{
+		font-size: 1.5rem;
+	}
+	.get_started {
+    width: 50%;}
+	.nav-link{
+		text-align: center;
+	}
+	.nav-link:before {
+	  content: "";
+	  position: absolute;
+	  width: 35%;
+    height: 2px;
+    bottom: 0;
+    left: calc(40% - 20px);
+	  background-color: #FFF;
+	  visibility: hidden;
+	  transform: scaleX(0);
+	  transition: all 0.3s ease-in-out;
+	}
+	.nav-link:hover:before {
+	  visibility: visible;
+	  transform: scaleX(1);
+	}
+	.clients img {
+    max-width: 50%;
+    padding: 10px 0px;
+	}
+	#business {
+    width: 100%;
+    height: 110vh;
+    background-color: #6186c3;}
+    .foot{
+    	font-size: 15px;
+    }
+}
